@@ -1,0 +1,170 @@
+{
+  "id": "1478010",
+  "name": "光健桑拿房",
+  "font_family": "icon",
+  "css_prefix_text": "snf-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "34375",
+      "name": "location",
+      "font_class": "location",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "377712",
+      "name": "Context Phone",
+      "font_class": "phone",
+      "unicode": "e6ad",
+      "unicode_decimal": 59053
+    },
+    {
+      "icon_id": "878384",
+      "name": "feedback",
+      "font_class": "feedback",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    },
+    {
+      "icon_id": "878809",
+      "name": "map",
+      "font_class": "map",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "996162",
+      "name": "key",
+      "font_class": "key",
+      "unicode": "e6c7",
+      "unicode_decimal": 59079
+    },
+    {
+      "icon_id": "1457002",
+      "name": "关于我们",
+      "font_class": "about",
+      "unicode": "e64a",
+      "unicode_decimal": 58954
+    },
+    {
+      "icon_id": "3069796",
+      "name": "时钟",
+      "font_class": "clock",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "3878743",
+      "name": "异常",
+      "font_class": "exclamation",
+      "unicode": "e65a",
+      "unicode_decimal": 58970
+    },
+    {
+      "icon_id": "4297332",
+      "name": "cart",
+      "font_class": "cart",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "4546812",
+      "name": "eye",
+      "font_class": "eye-open",
+      "unicode": "e63e",
+      "unicode_decimal": 58942
+    },
+    {
+      "icon_id": "5450721",
+      "name": "edit",
+      "font_class": "edit",
+      "unicode": "e70f",
+      "unicode_decimal": 59151
+    },
+    {
+      "icon_id": "5586555",
+      "name": "coupon",
+      "font_class": "coupon",
+      "unicode": "e666",
+      "unicode_decimal": 58982
+    },
+    {
+      "icon_id": "5893501",
+      "name": "trash",
+      "font_class": "trash",
+      "unicode": "e7a4",
+      "unicode_decimal": 59300
+    },
+    {
+      "icon_id": "6137574",
+      "name": "预约",
+      "font_class": "booking",
+      "unicode": "e6c8",
+      "unicode_decimal": 59080
+    },
+    {
+      "icon_id": "6750879",
+      "name": "完成",
+      "font_class": "finish",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    },
+    {
+      "icon_id": "6909070",
+      "name": "scan",
+      "font_class": "scan",
+      "unicode": "e685",
+      "unicode_decimal": 59013
+    },
+    {
+      "icon_id": "7035277",
+      "name": "order",
+      "font_class": "order",
+      "unicode": "e662",
+      "unicode_decimal": 58978
+    },
+    {
+      "icon_id": "7050240",
+      "name": "eye",
+      "font_class": "eye-close",
+      "unicode": "e62a",
+      "unicode_decimal": 58922
+    },
+    {
+      "icon_id": "7658434",
+      "name": "新用户指南-初始化设置",
+      "font_class": "guide",
+      "unicode": "e62e",
+      "unicode_decimal": 58926
+    },
+    {
+      "icon_id": "8166205",
+      "name": "person",
+      "font_class": "person",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "8331361",
+      "name": "套餐",
+      "font_class": "package",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "10204454",
+      "name": "wallet",
+      "font_class": "wallet",
+      "unicode": "e6da",
+      "unicode_decimal": 59098
+    },
+    {
+      "icon_id": "10319549",
+      "name": "wxpay",
+      "font_class": "wxpay",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    }
+  ]
+}

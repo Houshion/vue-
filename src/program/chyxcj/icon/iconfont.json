@@ -1,0 +1,86 @@
+{
+  "id": "1450010",
+  "name": "车海洋洗车机",
+  "font_family": "iconfont",
+  "css_prefix_text": "chy-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "34375",
+      "name": "location",
+      "font_class": "location",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "377712",
+      "name": "Context Phone",
+      "font_class": "phone",
+      "unicode": "e6ad",
+      "unicode_decimal": 59053
+    },
+    {
+      "icon_id": "411205",
+      "name": "Edit",
+      "font_class": "edit",
+      "unicode": "e66b",
+      "unicode_decimal": 58987
+    },
+    {
+      "icon_id": "783263",
+      "name": "menu",
+      "font_class": "menu",
+      "unicode": "e6bc",
+      "unicode_decimal": 59068
+    },
+    {
+      "icon_id": "996162",
+      "name": "key",
+      "font_class": "key",
+      "unicode": "e6c7",
+      "unicode_decimal": 59079
+    },
+    {
+      "icon_id": "4546812",
+      "name": "eye",
+      "font_class": "eye-open",
+      "unicode": "e63e",
+      "unicode_decimal": 58942
+    },
+    {
+      "icon_id": "5335797",
+      "name": "location",
+      "font_class": "located",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    },
+    {
+      "icon_id": "7050240",
+      "name": "eye",
+      "font_class": "eye-close",
+      "unicode": "e62a",
+      "unicode_decimal": 58922
+    },
+    {
+      "icon_id": "8447743",
+      "name": "question",
+      "font_class": "fill",
+      "unicode": "e726",
+      "unicode_decimal": 59174
+    },
+    {
+      "icon_id": "9732846",
+      "name": "map",
+      "font_class": "map",
+      "unicode": "e75e",
+      "unicode_decimal": 59230
+    },
+    {
+      "icon_id": "9897836",
+      "name": "navgation",
+      "font_class": "nav",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    }
+  ]
+}

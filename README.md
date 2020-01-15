@@ -1,4 +1,4 @@
-# wechat
+# wechat_demo
 
 ## Project setup
 ```
@@ -27,3 +27,5 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+"#Ocean's wechat_demo" 
+# Ocean's wechat_demo

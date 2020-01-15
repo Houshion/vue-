@@ -1,0 +1,183 @@
+#luckyDraw {
+  min-height: 100vh;
+  background: url("img/background.png");
+  padding-top: .5rem;
+}
+#luckyDraw #rotary-table {
+  width: 6rem;
+  height: 6rem;
+  position: relative;
+  margin: auto;
+}
+#luckyDraw #rotary-table .drawView .viewScreen {
+  width: 6rem;
+  height: 6rem;
+}
+#luckyDraw #rotary-table .drawView .viewScreen img {
+  width: 6rem;
+  height: 6rem;
+}
+#luckyDraw #rotary-table div.award,
+#luckyDraw #rotary-table div.center {
+  background-color: #ffd9bb;
+  border-radius: 5px;
+}
+#luckyDraw #rotary-table .award {
+  width: 1.2rem;
+  height: 1.2rem;
+  line-height: 1.2rem;
+  text-align: center;
+  float: left;
+  position: absolute;
+  overflow: hidden;
+}
+#luckyDraw #rotary-table .award.active {
+  background-color: #ffffff;
+}
+#luckyDraw #rotary-table .award.award0 {
+  top: .45rem;
+  left: .45rem;
+}
+#luckyDraw #rotary-table .award.award1 {
+  top: .45rem;
+  left: 1.75rem;
+}
+#luckyDraw #rotary-table .award.award2 {
+  top: .45rem;
+  right: 1.75rem;
+}
+#luckyDraw #rotary-table .award.award3 {
+  top: .45rem;
+  right: .45rem;
+}
+#luckyDraw #rotary-table .award.award4 {
+  top: 1.75rem;
+  right: .45rem;
+}
+#luckyDraw #rotary-table .award.award5 {
+  bottom: 1.75rem;
+  right: .45rem;
+}
+#luckyDraw #rotary-table .award.award6 {
+  bottom: .45rem;
+  right: .45rem;
+}
+#luckyDraw #rotary-table .award.award7 {
+  bottom: .45rem;
+  right: 1.75rem;
+}
+#luckyDraw #rotary-table .award.award8 {
+  bottom: .45rem;
+  left: 1.75rem;
+}
+#luckyDraw #rotary-table .award.award9 {
+  bottom: .45rem;
+  left: .45rem;
+}
+#luckyDraw #rotary-table .award.award10 {
+  bottom: 1.75rem;
+  left: .45rem;
+}
+#luckyDraw #rotary-table .award.award11 {
+  top: 1.75rem;
+  left: .45rem;
+}
+#luckyDraw #rotary-table .center {
+  position: absolute;
+  top: 1.75rem;
+  left: 1.75rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  text-align: center;
+  padding: 0.15rem;
+}
+#luckyDraw #rotary-table .center img {
+  position: absolute;
+  width: 2.2rem;
+  height: 2.2rem;
+  display: block;
+}
+#luckyDraw #rotary-table .center div.probability {
+  position: absolute;
+  z-index: 9;
+  width: 2.2rem;
+  line-height: 2.4rem;
+  font-size: .35rem;
+  font-weight: bold;
+  color: #ff6766;
+}
+#luckyDraw .middleLine {
+  height: .5rem;
+}
+#luckyDraw .middleLine div {
+  width: .15rem;
+  height: .5rem;
+  background: #eb4800;
+}
+#luckyDraw #control {
+  margin: auto;
+  width: 6rem;
+  height: 3.6rem;
+  background: url('img/bottom_bg.png') no-repeat;
+  background-size: 100% 100%;
+  padding: .1rem;
+}
+#luckyDraw #control .control {
+  width: 5.8rem;
+  height: 3.4rem;
+  background: #ff6767;
+  border-radius: 5px;
+  display: flex;
+  align-content: space-between;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#luckyDraw #control .control .awards {
+  width: 100%;
+}
+#luckyDraw #control .control .awards .list {
+  color: #ffffff;
+  margin-top: .1rem;
+  width: 1.35rem;
+  height: 1.75rem;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.6);
+  padding: .05rem;
+  border-radius: 5px;
+  font-weight: bold;
+  line-height: 2;
+}
+#luckyDraw #control .control .awards .list.active {
+  background: #fea156;
+}
+#luckyDraw #control .control .awards .list.active::before {
+  content: "\2714";
+  width: 21px;
+  height: 21px;
+  background: #fea156;
+  position: absolute;
+  font-size: .05rem;
+  border-bottom-right-radius: 5px;
+}
+#luckyDraw #control .control .awards .list img {
+  padding: .1rem;
+  border-radius: 5px;
+  background: #ffffff;
+}
+#luckyDraw #control .control .bottomBtns {
+  width: 100%;
+  align-items: flex-end;
+}
+#luckyDraw #control .control .bottomBtns .btn {
+  width: 1rem;
+  height: .5rem;
+  border-radius: 30px;
+  background: rgba(255, 255, 255, 0.6);
+  color: #ffffff;
+  text-align: center;
+  line-height: .5rem;
+  margin-bottom: .1rem;
+}
+#luckyDraw #control .control .bottomBtns #start-btn {
+  width: 2rem;
+}

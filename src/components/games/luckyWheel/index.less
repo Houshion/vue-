@@ -1,0 +1,176 @@
+.halo {
+    width: 5.4rem;
+    height: 5.4rem;
+    padding: 0.2rem;
+    margin: auto;
+    background: red;
+    border-radius: 50%;
+
+    #circle0 {
+        width: 5rem;
+        height: 5rem;
+        border-radius: 2.5rem;
+        position: relative;
+        margin: auto;
+        color: #fff;
+
+        #left {
+            clip: rect(0px 2.5rem 5rem 0px);
+            position: absolute;
+            right: 0px;
+            width: 2.5rem;
+            height: 5rem;
+            overflow: hidden;
+
+            .circle-left {
+                width: 2.5rem;
+                height: 5rem;
+                border-radius: 0px 2.5rem 2.5rem 0px;
+                position: absolute;
+                right: 0;
+                transform-origin: 0 50%;
+
+                &#circle1 {
+                    background-color: #ff5959;
+                    transform: rotate(0deg);
+                }
+
+                &#circle2 {
+                    background-color: #ff6766;
+                    transform: rotate(60deg);
+                }
+
+                &#circle3 {
+                    background-color: #ff5959;
+                    transform: rotate(120deg);
+                }
+
+                .sx {
+                    transform: rotate(30deg);
+                    margin-top: 0.8rem;
+                    margin-left: -1.6rem;
+                    height: 2.15rem;
+                }
+            }
+        }
+
+        #right {
+            clip: rect(0px 2.5rem 5rem 0px);
+            position: absolute;
+            left: 0px;
+            width: 2.5rem;
+            height: 5rem;
+            overflow: hidden;
+
+            .circle-right {
+                width: 2.5rem;
+                height: 5rem;
+                border-radius: 2.5rem 0px 0px 2.5rem;
+                position: absolute;
+                right: 0;
+                transform-origin: 100% 50%;
+
+                &#circle4 {
+                    background-color: #ff6766;
+                    transform: rotate(240deg);
+                }
+
+                &#circle5 {
+                    background-color: #ff5959;
+                    transform: rotate(300deg);
+                }
+
+                &#circle6 {
+                    background-color: #ff6766;
+                    transform: rotate(360deg);
+                }
+
+                .sx {
+                    transform: rotate(-30deg);
+                    margin-top: 0.8rem;
+                    margin-right: -1.6rem;
+                    height: 2.15rem;
+                }
+            }
+        }
+    }
+
+    .wheel-pointer-box {
+        position: absolute;
+        top: 3.7rem;
+        //   top: 2.7rem;/* 标准高度，根据不同需求换取不同高度 */
+        left: 50%;
+        z-index: 100;
+        transform: translate(-50%, -60%);
+        width: 1.69rem;
+        height: 1.69rem;
+    }
+
+    .wheel-pointer {
+        width: 1.69rem;
+        height: 1.69rem;
+        background: url("./img/draw_btn.png") no-repeat center top;
+        background-size: 100%;
+        transform-origin: center 60%;
+        transform: 0;
+        transition: transform 12s ease-in-out;
+    }
+
+    i {
+        display: block;
+        width: 5rem;
+        height: 5rem;
+        position: relative;
+        margin-top: -5rem;
+
+        // border-radius: 50%;
+        span {
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background: #ffffff;
+
+            &:nth-child(1) {
+                right: 0.5rem;
+                top: 0.65rem;
+            }
+
+            &:nth-child(2) {
+                right: -0.175rem;
+                top: 2.5rem;
+            }
+
+            &:nth-child(3) {
+                right: 0.5rem;
+                bottom: 0.65rem;
+            }
+
+            &:nth-child(4) {
+                left: 2.4rem;
+                bottom: -0.175rem;
+            }
+
+            &:nth-child(8) {
+                left: 0.5rem;
+                top: 0.65rem;
+            }
+
+            &:nth-child(7) {
+                left: -0.175rem;
+                top: 2.5rem;
+            }
+
+            &:nth-child(6) {
+                left: 0.5rem;
+                bottom: 0.65rem;
+            }
+
+            &:nth-child(5) {
+                left: 2.4rem;
+                top: -0.175rem;
+            }
+        }
+    }
+
+}
